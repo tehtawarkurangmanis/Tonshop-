@@ -1,5 +1,5 @@
 const products = [
-  { id: 1, name: "TON Hoodie", category: "APPAREL", price: 249000, image: "images/hoodie.svg" },
+  { id: 1, name: "Hot pant", category: "APPAREL", price: 249000, image: "images/hot.jpg" },
   { id: 2, name: "TON Cap", category: "ACCESSORIES", price: 99000, image: "images/cap.svg" },
   { id: 3, name: "TON T-Shirt", category: "APPAREL", price: 149000, image: "images/tshirt.svg" },
   { id: 4, name: "TON Bottle", category: "LIFESTYLE", price: 119000, image: "images/bottle.svg" }
@@ -80,7 +80,8 @@ document.getElementById("checkoutBtn").onclick = () => {
   const total = cart.reduce((sum, p) => sum + p.price * p.qty, 0);
   const message = `Halo TON Shop, saya ingin order:%0A%0A${lines.join("%0A")}%0A%0ATotal: ${rupiah(total)}%0A%0ANama:%0AAlamat:`;
   // GANTI nomor berikut dengan nomor WhatsApp toko.
-  window.open(`https://wa.me/6281234567890?text=${message}`, "_blank");
+  window.open(`https://wa.me/628567645605?text=${message}`, "_blank");
 };
 
 renderCart();
+                            
