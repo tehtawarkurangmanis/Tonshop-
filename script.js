@@ -1,8 +1,14 @@
 const products = [
-  { id: 1, name: "Hot pant", category: "APPAREL", price: 249000, image: "images/hot.jpg" },
+  { id: 1, name: "Hot Pant", category: "APPAREL", price: 249000, image: "images/hot.jpg" },
   { id: 2, name: "TON Cap", category: "ACCESSORIES", price: 99000, image: "images/cap.svg" },
   { id: 3, name: "TON T-Shirt", category: "APPAREL", price: 149000, image: "images/tshirt.svg" },
-  { id: 4, name: "TON Bottle", category: "LIFESTYLE", price: 119000, image: "images/bottle.svg" }
+  { id: 4, name: "TON Bottle", category: "LIFESTYLE", price: 119000, image: "images/bottle.svg" },
+  { id: 5, name: "TON Hoodie", category: "APPAREL", price: 299000, image: "images/hoodie.svg" },
+  { id: 6, name: "TON Jacket", category: "APPAREL", price: 399000, image: "images/jacket.svg" },
+  { id: 7, name: "TON Tote Bag", category: "ACCESSORIES", price: 129000, image: "images/totebag.svg" },
+  { id: 8, name: "TON Wallet", category: "ACCESSORIES", price: 159000, image: "images/wallet.svg" },
+  { id: 9, name: "TON Mug", category: "LIFESTYLE", price: 89000, image: "images/mug.svg" },
+  { id: 10, name: "TON Sneakers", category: "FOOTWEAR", price: 499000, image: "images/sneakers.svg" }
 ];
 
 let cart = [];
@@ -84,4 +90,4 @@ document.getElementById("checkoutBtn").onclick = () => {
 };
 
 renderCart();
-                            
+  
