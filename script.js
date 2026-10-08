@@ -2,7 +2,7 @@ const products = [
   { id: 1, name: "Hot Pant", category: "APPAREL", price: 249000, image: "images/hot.jpg" },
   { id: 2, name: "SHOES", category: "ACCESSORIES", price: 99000, image: "images/sepatu.jpeg" },
   { id: 3, name: "JEANS", category: "APPAREL", price: 149000, image: "images/celana.jpg" },
-  { id: 4, name: "Bottle", category: "LIFESTYLE", price: 119000, image: "images/tumbler.jpg" },
+  { id: 4, name: "Bottle", category: "LIFESTYLE", price: 119000, image: "images/Tumbler.jpg" },
   { id: 5, name: "TON Hoodie", category: "APPAREL", price: 299000, image: "images/hoodie.svg" },
   { id: 6, name: "TON Jacket", category: "APPAREL", price: 399000, image: "images/jacket.svg" },
   { id: 7, name: "TON Tote Bag", category: "ACCESSORIES", price: 129000, image: "images/totebag.svg" },
